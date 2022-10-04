@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+    background-color: #283593;
+    background-image: linear-gradient(140deg, #283593 15%, #050aff 50%, #00dbff 75%);
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d6efd;
+    padding-top: 3rem;
+}
+
+.login-form {
+    width: 310px;
+    height: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px !important;
+}
+
+.login-form h2 {
+    font-size: 25px;
+}
+
+.login-form label {
+    font-size: 14px;
+    color: #0d6efd;
+}
+
+input[type="text"],
+input[type="password"] {
+    background: #fff;
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #0d6efd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.login-failed {
+    font-weight: 500;
+    font-size: 14px;
+    color: #ff0000;
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-align: right;
+    color: #0d6efd;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+a:hover {
+    color: #283593;
+}
+
+.btn-login {
+    border-radius: 10px;
+}
+
+footer {
+    padding-top: 3rem;
+    background: url(../assets/wave.svg) no-repeat center;
+    background-size: cover;
+}
